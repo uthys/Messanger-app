@@ -1,0 +1,61 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    background-image: url("index-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0 / 0.3);
+    backdrop-filter: blur(10px);
+}
+.center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    background-color: #282828;
+    border-width: 12px;
+    border-color:black;
+    border-radius: 12px;
+    height: 50%;
+    width: 20%;
+    box-shadow: 0px 0px 40px 20px #fff;
+}
+
+.inputs{
+    position: relative;
+    padding: 5%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    border:none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.inputs.username{
+    width: 100%;
+}
+.inputs.password{
+    width: 100%;
+}
+
+.inputs.submit:hover{
+    background-color: #FFBF34;
+}
+
+.inputs.submit:hover{
+    background-color: #FFBF34;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 95%; /* Adjust the width for phone view */
+    padding: 10px; /* Adjust the padding for phone view */
+  }
+}
